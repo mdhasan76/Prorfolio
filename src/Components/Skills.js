@@ -62,7 +62,7 @@ const backEnd = [
 
 const Skills = () => {
     return (
-        <div id="skills" className='my-10 p-5 sm:p-10'>
+        <div id="skills" className='my-10 border-b-2 p-5 sm:p-10'>
             <h1 className='text-5xl font-bold text-center mb-20'>My Skills</h1>
             <div>
                 <p className='text-center text-lg font-medium'>Front-End Skills</p>
