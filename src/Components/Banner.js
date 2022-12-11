@@ -9,7 +9,7 @@ const Banner = () => {
             <div>
                 <h1 className='text-7xl font-bold leading-normal'>MD HASAN MIAH</h1>
                 <p className='text-3xl mb-3'>I am a <span className='text-[#ff014f]'> Front End Developer.</span></p>
-                <button className='text-[#ff014f] p-3 bg-white rounded text-lg font-medium '>Contact Me</button>
+                <a href='#contact' className='text-[#ff014f] p-3 bg-white rounded text-lg font-medium '>Contact Me</a>
             </div>
         </div>
     );

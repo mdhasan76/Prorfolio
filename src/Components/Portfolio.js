@@ -20,7 +20,7 @@ const portfolioData = [
 ]
 const Portfolio = () => {
     return (
-        <div className='my-10 p-5 sm:p-10'>
+        <div id="portfolio" className='my-10 p-5 sm:p-10'>
             <h1 className='text-5xl font-bold text-center mb-20'>Recent Project</h1>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
