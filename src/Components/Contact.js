@@ -1,7 +1,6 @@
 import { useForm } from '@formspree/react';
 import toast from 'react-hot-toast'
 import React from 'react';
-import { Toaster } from 'react-hot-toast';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Contact = () => {
@@ -35,37 +34,9 @@ const Contact = () => {
                     </form>
                 </div>
 
-                <Toaster />
+
             </div>
-            {/* <form onSubmit={handleSubmit}>
-                <label htmlFor="email">
-                    Email Address
-                </label>
-                <input
-                    className='w-full mb-2 border-2 p-4 focus:outline-[#ff014f]'
-                    id="email"
-                    type="email"
-                    name="email"
-                />
-                <ValidationError
-                    prefix="Email"
-                    field="email"
-                    errors={state.errors}
-                />
-                <textarea
-                    className='w-full mb-2 border-2 p-4 focus:outline-[#ff014f]'
-                    id="message"
-                    name="message"
-                />
-                <ValidationError
-                    prefix="Message"
-                    field="message"
-                    errors={state.errors}
-                />
-                <button type="submit" className='btn btn-primary' disabled={state.submitting}>
-                    Submit
-                </button>
-            </form> */}
+
         </div >
     );
 };
