@@ -1,17 +1,15 @@
 import React from 'react';
-import myimg from '../assets/my-pic2.jpg'
 
 const Banner = () => {
     return (
-        <div className="hero min-h-[90vh] bg-base-200">
-            <div className="flex flex-col lg:flex-row-reverse  max-w-6xl mx-auto">
-                <div className="text-center lg:text-left p-5 w-[70%]">
-                    <h1 className="text-5xl font-bold">Hello! I am Md Hasan <br /> a <span className='text-4xl text-indigo-400'>Front End Developer</span> </h1>
-                    <p className='py-3 text-lg font-medium'>I am a web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing. I have a strong under-standing of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appealing.</p>
-                </div>
-                <div className='w-[30%]'>
-                    <img src={myimg} className="rounded-lg ring-4 w-full" alt="" />
-                </div>
+        <div className="hero min-h-[90vh]
+        bg-[url('/src/assets/my-pic2.jpg')] 
+        text-center text-white ">
+            <div className="hero-overlay bg-opacity-60"></div>
+            <div>
+                <h1 className='text-7xl font-bold leading-normal'>MD HASAN MIAH</h1>
+                <p className='text-3xl mb-3'>I am a <span className='text-[#ff014f]'> Front End Developer.</span></p>
+                <button className='text-[#ff014f] p-3 bg-white rounded text-lg font-medium '>Contact Me</button>
             </div>
         </div>
     );
