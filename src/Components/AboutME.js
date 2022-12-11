@@ -11,7 +11,7 @@ const AboutME = () => {
                     <img src={img} className='border-[7px] mx-auto border-white' alt="" />
                 </div>
                 <div className='text-lg font-medium p-2 text-gray-600  leading-8 text-center md:text-left'>
-                    <p className='mb-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatum illum cupiditate rerum provident, ducimus totam quas iste earum beatae veniam dolorum sapiente repellat. Officia quibusdam voluptatum vel ullam maxime?</p>
+                    <p className='mb-2'>I am Md Hasan Miah. I am a Professional front End developer Based on React.js.I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can make beautiful UIs and also can handle the back-end smoothly. </p>
                     <p className='mb-2'>Phone: 01952532239</p>
                     <p>Email: mdhasanmiah8064@gmail.com</p>
                     <p className="mt-5 mb-2">FIND WITH ME</p>
