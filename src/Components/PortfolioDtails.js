@@ -1,6 +1,5 @@
-import React from 'react';
-// import axios from 'axios';
-// import { useLoaderData, useParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import axios from 'axios';
 import img1 from '../assets/dtails/crazy-travel.web.app_.png'
 import img2 from '../assets/dtails/crazy-travel.web.app_ (1).png'
 import img3 from '../assets/dtails/crazy-travel.web.app_ (2).png'
@@ -8,12 +7,12 @@ import img3 from '../assets/dtails/crazy-travel.web.app_ (2).png'
 const PortfolioDtails = () => {
     // const data = useLoaderData();
     // const { name } = useParams();
-    // useEffect(() => {
-    //     axios.get(`portfolioDetails.json`)
-    //         .then(res => {
-    //             console.log(res.data)
-    //         })
-    // }, [])
+    useEffect(() => {
+        axios.get(`/portfolioDetails.json`)
+            .then(res => {
+                console.log(res.data)
+            })
+    }, [])
     return (
         <div className='grid gap-5 bg-white md:grid-cols-2'>
             <div className='order-2 md:order-1 [&_img]:border-b-2 '>
