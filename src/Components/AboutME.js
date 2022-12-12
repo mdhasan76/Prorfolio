@@ -4,7 +4,7 @@ import { FiFacebook, FiLinkedin } from 'react-icons/fi';
 
 const AboutME = () => {
     return (
-        <div id="skills" className='my-10 border-b-2 p-5 sm:p-10'>
+        <div id="about-me" className='my-10 border-b-2 p-5 sm:p-10'>
             <h1 className='text-5xl font-bold text-center mb-20'>About Me</h1>
             <div className='grid md:grid-cols-2 items-center'>
                 <div>
