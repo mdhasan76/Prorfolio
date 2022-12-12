@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiArrowUpRight } from 'react-icons/fi'
+import { Link } from 'react-router-dom';
 const portfolioData = [
     {
         name: "MobileLy",
@@ -27,7 +28,7 @@ const Portfolio = () => {
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
                     portfolioData.map((data, i) =>
-                        <a href={data.siteLink} key={i} className='p-6 bg-gradient-to-t to-[#e2e8ec] from-[#ffffff] card-div shadow-3xl rounded-lg' target="_blank" rel="noreferrer">
+                        <a href={data.siteLink} key={i} className='p-6 bg-gradient-to-t  to-[#e2e8ec] from-[#ffffff] card-div shadow-3xl rounded-lg' target="_blank" rel="noreferrer">
                             <div className='flex items-center justify-between'>
                                 <div className='mb-3'>
                                     <h4 className='text-3xl pb-2 font-semibold'>{data.name}</h4>
@@ -37,6 +38,9 @@ const Portfolio = () => {
                             </div>
                             <div>
                                 <img src={data.img} className="w-full h-64 rounded-lg" alt="" />
+                            </div>
+                            <div className='text-right  mt-2'>
+                                <Link to={`/portfolio/${data.name}`} className="btn btn-primary">See Dtails</Link>
                             </div>
                         </a>)
                 }

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "MobileLy",
+        "text": "Second-hand Phone Selling E-commerce site",
+        "siteLink": "https://mobilly76.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "Safe Edu",
+        "text": "Course Selling Site",
+        "siteLink": "https://safe-edu1.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "Crazy Travel",
+        "text": "Travel Service selling site",
+        "siteLink": "https://crazy-travel.web.app/"
+    }
+]

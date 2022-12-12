@@ -12,8 +12,10 @@ const AboutME = () => {
                 </div>
                 <div className='text-lg font-medium p-2 text-gray-600  leading-8 text-center md:text-left'>
                     <p className='mb-2'>I am Md Hasan Miah. I am a Professional front End developer Based on React.js.I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can make beautiful UIs and also can handle the back-end smoothly. </p>
-                    <p className='mb-2'>Phone: 01952532239</p>
-                    <p>Email: mdhasanmiah8064@gmail.com</p>
+                    <div className='mt-1'>
+                        <p className='mb-2'>Phone: 01952532239</p>
+                        <p>Email: mdhasanmiah8064@gmail.com</p>
+                    </div>
                     <p className="mt-5 mb-2">FIND WITH ME</p>
                     <div className="flex justify-center md:justify-start">
                         <a href="https://www.linkedin.com/in/md-hasan-miah/" target="_blank" className='bg-my rounded-md shadow-3xl p-5 duration-300 hover:-translate-y-1 hover:bg-[#ff014f] hover:text-white mr-2' rel="noreferrer"><FiLinkedin className='text-lg' /></a>

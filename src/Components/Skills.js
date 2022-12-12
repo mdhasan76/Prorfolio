@@ -69,7 +69,7 @@ const Skills = () => {
                 <div className='flex flex-wrap justify-center my-5'>
                     {
                         frontEnd.map((data, i) => <div key={i}>
-                            <div className='bg-white w-28 p-3 rounded-md mr-2'>
+                            <div className='bg-white w-28 p-3 mb-2 rounded-md mr-2'>
                                 <span className=''> <img src={data.img} className='w-full h-16 mx-auto' alt="" /></span>
                                 <p className='pt-2 font-medium text-center'>{data.name}</p>
                             </div>
@@ -83,7 +83,7 @@ const Skills = () => {
                 <div className='flex flex-wrap justify-center my-5'>
                     {
                         backEnd.map((data, i) => <div key={i}>
-                            <div className='bg-white w-28 p-3 rounded-md mr-2'>
+                            <div className='bg-white w-28 mb-2 p-3 rounded-md mr-2'>
                                 <span className=''> <img src={data.img} className='w-full h-16 mx-auto' alt="" /></span>
                                 <p className='pt-2 font-medium text-center'>{data.name}</p>
                             </div>
