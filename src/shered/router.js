@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "/portfolio/:name",
+                path: "/portfolio/:id",
                 // loader: ({ params }) => fetch(`portfolioDetails.json/${params.name}`),
                 element: <PortfolioDtails />
             }

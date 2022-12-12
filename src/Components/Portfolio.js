@@ -3,18 +3,21 @@ import { FiArrowUpRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom';
 const portfolioData = [
     {
+        id: 1,
         name: "MobileLy",
         text: "Second-hand Phone Selling E-commerce site",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToPB47Kg2xhUMN_RpDXFtHKT9RglF68TdwPg&usqp=CAU",
         siteLink: "https://mobilly76.web.app/"
     },
     {
+        id: 3,
         name: "Safe Edu",
         text: "Course Selling Site",
         img: "https://leadership.ng/wp-content/uploads/2022/07/Education-1280x720-1.jpg",
         siteLink: "https://safe-edu1.web.app/"
     },
     {
+        id: 2,
         name: "Crazy Travel",
         text: "Travel Service selling site",
         img: "https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg?w=2000",
@@ -40,7 +43,7 @@ const Portfolio = () => {
                                 <img src={data.img} className="w-full h-64 rounded-lg" alt="" />
                             </div>
                             <div className='text-right  mt-2'>
-                                <Link to={`/portfolio/${data.name}`} className="btn btn-primary">See Dtails</Link>
+                                <Link to={`/portfolio/${data.id}`} className="btn btn-primary">See Dtails</Link>
                             </div>
                         </a>)
                 }

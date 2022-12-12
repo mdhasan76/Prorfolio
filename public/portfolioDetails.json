@@ -1,20 +1,71 @@
 [
     {
-        "id": 1,
+        "siteId": 1,
         "name": "MobileLy",
         "text": "Second-hand Phone Selling E-commerce site",
-        "siteLink": "https://mobilly76.web.app/"
+        "siteLink": "https://mobilly76.web.app/",
+        "clientsideGit": "https://github.com/mdhasan76/MobilLy",
+        "serversideGit": "https://github.com/mdhasan76/MobilLy-Server",
+        "technology": "React, react router, MongoDB, firebase Authentication, React Query, node.js, express.js, Tailwind, daisyUI, jwt token, react icon etc...",
+        "feature": [
+            "This is A Second hand phone selling site. Any one can be seller and user.",
+            "This site have 3 role. User role,admin role  and Seller role",
+            "A seller can sell product",
+            "This site has service Dtails route.",
+            "In this site Has Log in authontication and sing Up page.",
+            "It has been Private route. For given a service review must have login user.",
+            "It has a Blog page . where has 4 question Ans."
+        ],
+        "pageImg": [
+            "https://i.ibb.co/zr8RG6C/mobilly76-web-app.png",
+            "https://i.ibb.co/85Jq0S4/mobilly76-web-app-1.png",
+            "https://i.ibb.co/xfcd93c/mobilly76-web-app-2.png"
+        ]
     },
     {
-        "id": 2,
-        "name": "Safe Edu",
-        "text": "Course Selling Site",
-        "siteLink": "https://safe-edu1.web.app/"
-    },
-    {
-        "id": 3,
+        "siteId": 2,
         "name": "Crazy Travel",
         "text": "Travel Service selling site",
-        "siteLink": "https://crazy-travel.web.app/"
+        "siteLink": "https://crazy-travel.web.app/",
+        "clientsideGit": "https://github.com/mdhasan76/Crazy-Travel",
+        "serversideGit": "https://github.com/mdhasan76/Crazy-Travel-Server",
+        "technology": "React, react router, MongoDB, firebase Authentication, React Query, node.js, express.js, Tailwind, daisyUI, jwt token, react icon etc...",
+        "feature": [
+            "This is A Travel service Selling & review site. A single pesone Sale his Travel related service .",
+            "This site have 2 role. User role and Seller role",
+            "A user can see service. and give feedback or Review for service.",
+            "This site has service Dtails route.",
+            "In this site Has Log in authontication and sing Up page.",
+            "It has been Private route. For given a service review must have login user.",
+            "It has a Blog page . where has 4 question Ans."
+        ],
+        "pageImg": [
+            "https://i.ibb.co/kJTHcKs/crazy-travel-web-app.png",
+            "https://i.ibb.co/0Vxs5WM/crazy-travel-web-app-1.png",
+            "https://i.ibb.co/LhyYDMK/crazy-travel-web-app-2.png"
+        ]
+    },
+    {
+        "siteId": 3,
+        "name": "Safe Edu",
+        "text": "Course Selling Site",
+        "siteLink": "https://safe-edu1.web.app/",
+        "clientsideGit": "https://github.com/mdhasan76/Safe-Edu",
+        "serversideGit": null,
+        "technology": "React, react router, MongoDB, firebase Authentication, React Query, node.js, express.js, Tailwind, daisyUI, jwt token, react icon etc...",
+        "feature": [
+            "This is A Travel service Selling & review site. A single pesone Sale his Travel related service .",
+            "This site have 2 role. User role and Seller role",
+            "A user can see service. and give feedback or Review for service.",
+            "This site has service Dtails route.",
+            "In this site Has Log in authontication and sing Up page.",
+            "It has been Private route. For given a service review must have login user.",
+            "It has a Blog page . where has 4 question Ans."
+        ],
+        "pageImg": [
+            "https://i.ibb.co/MSZYkbw/safe-edu1-web-app.png",
+            "https://i.ibb.co/tPWJ17j/safe-edu1-web-app-1.png",
+            "https://i.ibb.co/fGy7g1Y/safe-edu1-web-app-2.png"
+        ]
     }
 ]
