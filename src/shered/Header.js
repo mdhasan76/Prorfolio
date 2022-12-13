@@ -24,7 +24,7 @@ const Header = () => {
                     <li><a href='/#about-me' className='font-semibold'>About Me</a></li>
                     <li><a href='/#contact' className='font-semibold'>Contact</a></li>
                     <li><a href='/#portfolio' className='font-semibold'>Portfolio</a></li>
-                    <li><a href='/blog' className='font-semibold'>Blog</a></li>
+                    <li><Link to='/blog' className='font-semibold'>Blog</Link></li>
                     <li><a href='https://drive.google.com/file/d/1LUgDVFSwi3VZEF3SR4kmNxoOvMPRbydm/view?usp=share_link' target='_blank' rel="noreferrer" className='font-semibold'>My Resume</a></li>
                 </ul>
             </div>

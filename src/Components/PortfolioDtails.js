@@ -9,7 +9,6 @@ const PortfolioDtails = () => {
         axios.get(`https://crazy-travle-server.vercel.app/portfolio/${id}`)
             .then(res => {
                 setDetails(res.data)
-                console.log(res.data)
             })
     }, [id])
     return (
@@ -19,7 +18,7 @@ const PortfolioDtails = () => {
                     detail.pageImg?.map((img, i) => <img key={i} src={img} alt="" />)
                 }
             </div><div className='relative p-3 order-1 md:order-2'>
-                <h4 className='font-semibold text-4xl mt-3 mb-2'>{detail.name}<span className='text-sm'>(full-stack)</span> </h4>
+                <h4 className='font-semibold text-4xl mt-3 mb-2'>{detail.name}<span className='text-sm'></span> </h4>
                 <p className='text-lg text-gray-600'>{detail.text}</p>
 
                 <div>
@@ -30,6 +29,16 @@ const PortfolioDtails = () => {
                             detail.feature?.map((item, i) => <li key={i}>{item}</li>)
                         }
                     </ul>
+                    <a href={detail.clientsideGit}
+                        target="_blank"
+                        rel="noreferrer" className='btn btn-primary mr-3'>Client side</a>
+                    {
+                        detail.serversideGit != null ?
+                            <a href={detail.serversideGit}
+                                target="_blank"
+                                rel="noreferrer"
+                                className='btn btn-primary '>Server side</a> : ''
+                    }
                 </div>
             </div>
         </div >
