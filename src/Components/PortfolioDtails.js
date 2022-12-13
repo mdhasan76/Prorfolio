@@ -29,6 +29,9 @@ const PortfolioDtails = () => {
                             detail.feature?.map((item, i) => <li key={i}>{item}</li>)
                         }
                     </ul>
+                    <a href={detail.siteLink}
+                        target="_blank"
+                        rel="noreferrer" className='btn btn-primary mr-3'>Live Link</a>
                     <a href={detail.clientsideGit}
                         target="_blank"
                         rel="noreferrer" className='btn btn-primary mr-3'>Client side</a>
