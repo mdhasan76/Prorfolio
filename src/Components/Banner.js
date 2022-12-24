@@ -6,7 +6,7 @@ import image from '../assets/IMG20210515175953-01.jpeg';
 const Banner = () => {
     return (
         <WaterWave
-            className="h-[90vh] bg-contain"
+            className="h-[70vh] md:h-[90vh] max-w-full bg-cover bg-center object-center"
             imageUrl={image}
         >
             {
