@@ -10,7 +10,8 @@ const PortfolioDtails = () => {
             .then(res => {
                 setDetails(res.data)
             })
-    }, [id])
+    }, [id]);
+    
     return (
         <div className='grid gap-5 bg-white md:grid-cols-2'>
             <div className='order-2 md:order-1 [&_img]:border-b-2 '>
@@ -37,7 +38,7 @@ const PortfolioDtails = () => {
                         rel="noreferrer" className='btn btn-primary mr-3'>Client side</a>
                     {
                         detail.serversideGit != null ?
-                            <a href={detail.serversideGit}
+                            <a href={detail?.serversideGit}
                                 target="_blank"
                                 rel="noreferrer"
                                 className='btn btn-primary '>Server side</a> : ''

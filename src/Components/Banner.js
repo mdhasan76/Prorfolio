@@ -1,6 +1,5 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-
 import WaterWave from 'react-water-wave';
 import image from '../assets/IMG20210515175953-01.jpeg';
 const Banner = () => {
@@ -8,6 +7,9 @@ const Banner = () => {
         <WaterWave
             className="h-[70vh] md:h-[90vh] max-w-full bg-cover bg-center object-center"
             imageUrl={image}
+            perturbance={0.02}
+            dropRadius={30}
+            resolution={400}
         >
             {
                 () => (
