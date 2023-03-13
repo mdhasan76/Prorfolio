@@ -14,7 +14,7 @@ const Header = () => {
                         <li><a href='/#contact' className='font-semibold'>Contact</a></li>
                         <li><a href='/#portfolio' className='font-semibold'>Portfolio</a></li>
                         <li><Link to='/blog' className='font-semibold'>Blog</Link></li>
-                        <li><a href='https://drive.google.com/file/d/1LUgDVFSwi3VZEF3SR4kmNxoOvMPRbydm/view?usp=share_link' target='_blank' rel="noreferrer" className='font-semibold'>My Resume</a></li>
+                        <li><a href='https://drive.google.com/file/d/1gkQo2KbrZuaB3b2vwd2IhBh4lrqZ7AKQ/view?usp=share_link' target='_blank' rel="noreferrer" className='font-semibold'>My Resume</a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl" href='/'>Md Hasan</a>
@@ -25,7 +25,7 @@ const Header = () => {
                     <li><a href='/#contact' className='font-semibold'>Contact</a></li>
                     <li><a href='/#portfolio' className='font-semibold'>Portfolio</a></li>
                     <li><Link to='/blog' className='font-semibold'>Blog</Link></li>
-                    <li><a href='https://drive.google.com/file/d/1LUgDVFSwi3VZEF3SR4kmNxoOvMPRbydm/view?usp=share_link' target='_blank' rel="noreferrer" className='font-semibold'>My Resume</a></li>
+                    <li><a href='https://drive.google.com/file/d/1gkQo2KbrZuaB3b2vwd2IhBh4lrqZ7AKQ/view?usp=share_link' target='_blank' rel="noreferrer" className='font-semibold'>My Resume</a></li>
                 </ul>
             </div>
         </div>

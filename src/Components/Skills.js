@@ -12,6 +12,15 @@ import html from '../assets/html-logo.jpg';
 import express from '../assets/express-logo.jpg';
 
 const frontEnd = [
+    
+    {
+        img: html,
+        name: "HTML5"
+    },
+    {
+        img: css,
+        name: "CSS3"
+    },
     {
         img: javascript,
         name: "JavaScript"
@@ -32,20 +41,9 @@ const frontEnd = [
         img: metarialUI,
         name: "Metariul UI"
     },
-    {
-        img: html,
-        name: "HTML"
-    },
-    {
-        img: css,
-        name: "Bootstrap"
-    },
 ];
 const backEnd = [
-    {
-        img: mongoDB,
-        name: "MongoDB"
-    },
+   
     {
         img: node,
         name: "Node.js"
@@ -53,6 +51,10 @@ const backEnd = [
     {
         img: express,
         name: "Express.js"
+    },
+    {
+        img: mongoDB,
+        name: "MongoDB"
     },
     {
         img: firebase,

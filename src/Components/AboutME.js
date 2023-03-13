@@ -19,7 +19,7 @@ const AboutME = () => {
                     <p className="mt-5 mb-2">FIND WITH ME</p>
                     <div className="flex justify-center md:justify-start">
                         <a href="https://www.linkedin.com/in/md-hasan-miah/" target="_blank" className='bg-my rounded-md shadow-3xl p-5 duration-300 hover:-translate-y-1 hover:bg-[#ff014f] hover:text-white mr-2' rel="noreferrer"><FiLinkedin className='text-lg' /></a>
-                        <a href="https://www.facebook.com/MDHMMMMMM" target="_blank" rel="noreferrer" className='bg-my rounded-md shadow-3xl p-5 duration-300 hover:-translate-y-1 hover:bg-[#ff014f] hover:text-white mr-2'><FiFacebook className='text-lg' /></a>
+                        <a href="https://www.facebook.com/DeveloperMdHasan" target="_blank" rel="noreferrer" className='bg-my rounded-md shadow-3xl p-5 duration-300 hover:-translate-y-1 hover:bg-[#ff014f] hover:text-white mr-2'><FiFacebook className='text-lg' /></a>
                     </div>
                 </div>
             </div>

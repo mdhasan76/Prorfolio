@@ -30,20 +30,6 @@ const portfolioData = [
         img: "https://thebusinesscommunication.com/wp-content/uploads/2019/09/Importance-of-Memo-1.jpg",
         siteLink: "https://unanioushudhaloy.netlify.app/"
     },
-    // {
-    //     name: "Unani Oushudhaloy",
-    //     clientsideGit: "https://github.com/mdhasan76/Prorfolio",
-    //     feature: ["User can add product", "User can download Order pdf", "user Will show total price of This order", "The PDF will download as BIll to name", "user can give discount amount for Client"],
-    //     serversideGit: "",
-    //     pageImg: ["https://i.ibb.co/zr8RG6C/mobilly76-web-app.png",
-    //         "https://i.ibb.co/85Jq0S4/mobilly76-web-app-1.png",
-    //         "https://i.ibb.co/xfcd93c/mobilly76-web-app-2.png"],
-    //     serversideGit: "",
-    //     siteId: 4,
-    //     siteLink: "https://mdhasan-portfolio.netlify.app/",
-    //     technology: "React, React Pdf, Tailwind, Flowbite",
-    //     text: "Second-hand Phone Selling E-commerce site",
-    // }
 ]
 const Portfolio = () => {
     return (
@@ -61,7 +47,7 @@ const Portfolio = () => {
                                 <span className='p-3'> <FiArrowUpRight className='text-3xl rounded-full bg-black text-white card-icon' /> </span>
                             </div>
                             <div>
-                                <img src={data.img} className="w-full h-64 rounded-lg" alt="" />
+                                <img src={data.img} className="w-full h-64 rounded-lg duration-200 hover:scale-110" alt="" />
                             </div>
                             <div className='text-right  mt-2'>
                                 <Link to={`/portfolio/${data.id}`} className="btn btn-primary">See Dtails</Link>
