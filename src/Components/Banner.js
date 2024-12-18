@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import WaterWave from "react-water-wave";
-import image from "../assets/IMG20210515175953-01.jpeg";
+import image from "../assets/HasanwithLaptop.jpg";
 const Banner = () => {
   return (
     <WaterWave

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/my-pic2.jpg";
+import img from "../assets/alwaysProf.png";
 import { FiFacebook, FiLinkedin } from "react-icons/fi";
 
 const AboutME = () => {
@@ -7,10 +7,10 @@ const AboutME = () => {
     <div id="about-me" className="my-10 border-b-2 p-5 sm:p-10">
       <h1 className="text-5xl font-bold text-center mb-20">About Me</h1>
       <div className="grid md:grid-cols-2 items-center">
-        <div>
-          <img src={img} className="border-[7px] mx-auto border-white" alt="" />
+        <div className="max-w-full p-5">
+          <img src={img} className="border-[7px]  border-white" alt="" />
         </div>
-        <div className="text-lg font-medium p-2 text-gray-600  ">
+        <div className="space-y-4 text-gray-600 text-lg p-2  ">
           <p className="mb-2 text-justify">
             <span className="">
               I am Md Hasan Mia, a dedicated and professional Full-Stack
